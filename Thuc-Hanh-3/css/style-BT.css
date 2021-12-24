@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("/images/background.png");
+	background-repeat: repeat;
+	background-size: 100%;
+}
+/*begin heading*/
+#heading #head{
+	display: flex;
+	background-color: #ffbcbc;
+	width: 1520px;	
+}
+#head #logo{
+	margin-left: 200px;
+	width: 100px;
+	height: auto;
+}
+#head #menu a{
+	text-decoration: none;
+	color:#254e7c;
+	padding: 25px 15px;
+	font-weight: bold;
+}
+#head #menu a:hover{
+	background: #fce3e3;
+	color: rgb(72,180,226);
+}
+#head #menu{
+	margin: auto;
+}
+#head #menu #active{
+	background: #fce3e3;
+	color: rgb(72,180,226);
+}
+#head #search{
+	padding: 18px 0;
+}
+#head #search #input{
+	height: 32px;
+	width: 300px;
+	border: none;
+	border-bottom: 2px solid #254e7c;
+	border-radius: 20px;
+	padding-left: 10px;
+	background-image: url("/images/search.png");
+	background-repeat: no-repeat;	
+	background-size: 20px 20px;
+	background-position-x: 275px;
+	background-position-y: 5px;
+}
+#cart a img{
+	height: 32px;
+	margin: 18px 85px;
+}
+#cart a img:hover{
+	transform: scale(1.2);
+}
+/*end heading*/
+
+/*begin banner*/
+#banner a #banner-img{
+	width: 1120px;
+	margin: 0 200px 20px;
+}
+/*end banner*/
+
+/*begin body*/
+/*begin news*/
+#news{
+    width: 1120px;
+    margin: 100px 200px;
+    font-size: 18px;
+    color: white;
+}
+#news .BT-img{
+    width: 800px;
+    margin: 0 160px;
+}
+#news #content{
+    color: #ffbcbc;
+    padding-bottom: 100px;
+}
+/*end news*/
+
+/*begin message*/
+#message{
+	position:fixed;
+	right: 60px;
+	bottom: 120px;
+}
+#message img{
+	width: 90px;
+	opacity: 0.7;
+	animation-name: animation;
+  	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+#message img:hover{
+	transform: scale(1.2);
+}
+@keyframes animation{
+	0%{ transform: rotate(0deg);}
+	25%{ transform: rotate(-25deg);}
+	50%{ transform: rotate(25deg);}
+	75%{ transform: rotate(-10deg);}
+	100%{ transform: rotate(10deg);}
+}
+/*end message*/
+/*end body*/
+
+/*begin footer*/
+.footer{
+	margin: 120px 0 0;
+	display: flex;
+	border-top: 2px solid #1190CB;
+	width: 1520px;
+	padding: 20px 0;
+	background-color: #fce3e3;
+	justify-content: center;
+}
+.contact-info{
+	width: 200px;
+}
+.contact-info a .contact{
+	width: 10px;
+}
+.contact-info a{
+	color: black;
+}
+.contact-info a:hover{
+	color: #1190CB;
+}
+.map{
+	margin: 0 100px;
+}
+.map #dc{
+	width: 450px;
+	height: 200px;
+	border: none;
+}
+.link .logo{
+	width: 30px;
+	height: auto;
+}
+.link a{
+	padding-right: 20px;
+}
+.link a:hover{
+	opacity: 0.5;
+}
+h4{
+	color:#1190CB;
+}
+/*end footer*/
